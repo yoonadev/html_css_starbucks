@@ -1,0 +1,288 @@
+@font-face{font-family: SoDoSans-Bold;
+    src:url(SoDoSans-Bold.woff) format('woff')}
+@font-face{font-family: SoDoSans-Regular;
+    src: url(SoDoSans-Regular.woff) format('woff')}
+@font-face{font-family: SoDoSans-SemiBold;
+    src: url(SoDoSans-SemiBold.woff) format('woff')}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.header{
+    height: 70px;
+    padding: 11px 25px;
+    box-shadow: 0px 2px #b6c8c2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav :hover,#store:hover{
+    color: #006341;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: SoDoSans-Bold;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.menu{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#header-login{
+    height: 35px;
+    font-family: SoDoSans-Regular;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+.login:nth-child(1){
+    padding: 27px;
+}
+.login:nth-child(2),.login:nth-child(3){
+    display: inline;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:6px 17px
+}
+.login:nth-child(3){
+    color: white;
+    background-color: black;
+}
+.pick{
+    height: fit-content;
+    font-size: 21px;
+    padding: 10px;
+}
+#bars{color: gray;
+    margin: auto;
+}
+.putfirst{
+    display: flex;
+    justify-content: center;
+    background-color: #D4E9E2;
+    text-align: center;
+    height: 128px;
+    align-items: center;
+    margin: 0px 40px;
+}
+#learnmore{
+    font-family: SoDoSans-Regular;
+    font-size: 19px;
+    width: 806px;
+    color: #1E3932;
+}
+#learnmore a{
+    text-decoration: underline;
+}
+.reword{
+    margin: 0px 40px;
+    display: flex;
+    background-color: #1E3932;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reword_text{
+    font-family: SoDoSans-Regular;
+    color:white;
+    text-align: center;
+    margin: auto;
+}
+#reword_header{
+    font-size: 24px;
+}
+#reword_article{
+    margin: 40px 150px;
+    font-size: 19px;
+}
+.reword_button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding:6px 17px;
+}
+#maketime,#discover{
+    font-family: SoDoSans-Bold;
+    font-size: 58px;
+    color: #1E3932;
+    text-align: center;
+    margin: 60px;
+}
+.reserve,.lush,.breakfast{
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F0EBE0;
+    font-family: SoDoSans-Regular;
+    color: #1E3932;
+}
+.reserve_text,.lush_text,.breakfast_text{
+    text-align: center;
+    margin: auto;
+}
+#reserve_header,#lush_header,#breakfast_header{
+    font-family: SoDoSans-Bold;
+    font-size: 54px;
+    margin: 0px 80px;
+    letter-spacing: 2px;
+}
+#reserve_article,#lush_article,#breakfast_article{
+    margin: 40px 70px;
+    font-size: 27px;
+}
+.reserve_button,.lush_button,.breakfast_button{
+    color: #1E3932;
+    border: 1px solid #1E3932;
+    border-radius: 30px;
+    padding:6px 17px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.lush{
+    margin: 30px 40px;
+}
+.star{
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F0EC;
+    font-family: SoDoSans-Regular;
+    color: black;
+}
+.star_text,.black_text{
+    text-align: center;
+    margin: auto;
+}
+#star_header,#black_header{
+    font-family: SoDoSans-Regular;
+    font-size: 24px;
+}
+#star_article,#black_article{
+    margin: 40px 85px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.star_button{
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:6px 17px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.black{
+    margin: 30px 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #D5EAE3;
+    font-family: SoDoSans-Regular;
+    color: #1E3932;
+}
+.black_button{
+    color: #1E3932;
+    border: 1px solid #1E3932;
+    border-radius: 30px;
+    padding:6px 17px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.ref{
+    font-family: SoDoSans-Regular;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    margin: 70px 434px;
+}
+.black_img img{ 
+    height: 400px;
+}
+#reg{
+    font-size: 15px;
+    vertical-align: 9px;
+}
+.login:nth-child(2):hover,.reword_button:hover,.reserve_button:hover,.lush_button:hover,.breakfast_button:hover,.star_button:hover,.black_button:hover{
+    background-color: rgba(200,200,200,0.3);
+}
+.login:nth-child(3):hover{
+    background-color: rgba(50,50,50,0.8);
+}
+ul.mylist{
+    font-family: SoDoSans-Regular;
+    font-size: 15px;
+    color: gray;
+    list-style: none;
+    max-width: 190px;
+    width: 100%;
+    line-height: 26px;
+    padding: 0px 40px 0px 0px;
+
+}
+li{
+    margin: 25px 0px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    margin: 0px 30px;
+}
+.mylist_header{
+    font-size: 18.5px;
+    color: black;
+}
+.list a{
+    color: gray;
+}
+.list a:hover{
+    color: black;
+}
+.social_icon{
+    margin: 40px 20px;
+    display: flex;
+}
+#social_spotify i{
+    color: #212121;
+    margin: 0px 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+.social_others{
+    display: inline-block;
+    color: white;
+    background-color: #212121;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 0px 10px;
+}
+.footer{
+font-family: SoDoSans-Regular;
+margin-bottom: 30px;
+}
+.contact_container{
+    display: flex;
+}
+.contact{
+    padding: 0px 25px;
+}
+.contact:not(:last-child){
+border-right: 1px solid black;
+}
+#copyright{
+    color: gray;
+    margin: 30px;
+}
